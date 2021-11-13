@@ -2,14 +2,6 @@
 // repeatStr(6, "I") // "IIIIII"
 // repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
 
-const repeat_str = (n,str) => {
-    let newStr = ''
-    let i = 0 
-    while (i < n){
-        newStr += str
-        i++
-    }
-    return newStr
-}
+const repeat_str = (n,str) => str.repeat(n)
 
 console.log('expected: YoYoYo. got:',repeat_str(3,'Yo'))

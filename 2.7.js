@@ -4,14 +4,8 @@
 // The function should return result of numbers after applying the chosen operation.
 
 
-const basicOp = (action,n1,n2) => {
-    switch (action){
-        case '+': return n1 + n2
-        case '-': return n1 - n2
-        case '*': return n1 * n2
-        case '/': return n1 / n2
-    }
-}
+const basicOp = (action,n1,n2) =>  eval(`${n1}${action}${n2}`)
+
 
 console.log(' summation: ')
 console.log('expected: 11, got: ',basicOp('+', 4, 7)) 

@@ -5,9 +5,8 @@
 // Ex2.2
 let array = [19, 5, 1, 2, 77]
 const getSmallestNumsSum = arr => {
-    const alpha = (a,b) => a-b 
-    let a = arr.sort(alpha).shift()
-    let b = arr.sort(alpha).shift()
+    let sortedArr =  arr.sort((a,b) => a-b) 
+    let [a,b] = sortedArr
     console.log('first smaleest num: ',a)
     console.log('second smaleest num: ',b)
     return a+b

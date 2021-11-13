@@ -15,12 +15,12 @@ const binaryToInteger = arr => {
 }
 
 const arr1 = [0, 0, 0, 1]
-console.log('original array: ',arr1,'expected: result:1. got: ',binaryToInteger(arr1))
+console.log('original array: ',arr1,'expected result:1. got: ',binaryToInteger(arr1))
 let arr2 =  [0, 0, 1, 0]
-console.log('original array: ',arr2,'expected: result:2. got: ',binaryToInteger(arr2))
+console.log('original array: ',arr2,'expected result:2. got: ',binaryToInteger(arr2))
 let arr3 =  [0, 1, 0, 1]
 console.log('original array: ',arr3,'expected: result:5. got: ',binaryToInteger(arr3))
 let arr4 =  [1, 0, 0, 1]
-console.log('original array: ',arr4,'expected: result:9. got: ',binaryToInteger(arr4))
+console.log('original array: ',arr4,'expected result:9. got: ',binaryToInteger(arr4))
 let arr5 = [1,0,0,0,0,0,1]
-console.log('original array: ',arr5,'expected: result:65. got: ',binaryToInteger(arr5))
+console.log('original array: ',arr5,'expected result:65. got: ',binaryToInteger(arr5))

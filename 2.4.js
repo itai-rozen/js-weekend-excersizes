@@ -13,9 +13,9 @@ const findUnique = arr => {
     }
     let uniqueNum
     for (k in numbersMap){
-        if (numbersMap[k] === 1) uniqueNum = k
+        if (numbersMap[k] === 1) return k 
     }
-    return uniqueNum
+    return 'no unique num'
 }
 const array1 = [ 1, 1, 1, 2, 1, 1 ]
 const array2 = [ 0, 0, 0.55, 0, 0 ]

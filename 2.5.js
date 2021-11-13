@@ -14,6 +14,6 @@ const summation = n => {
     return sum
 }
 
-console.log('expected: 10. got: ',summation(4))
-console.log('expected: 15. got: ',summation(5))
-console.log('expected: 36. got: ',summation(8))
+console.log('for number 4. expected: 10. got: ',summation(4))
+console.log('for number 5.expected: 15. got: ',summation(5))
+console.log('for number 8.expected: 36. got: ',summation(8))

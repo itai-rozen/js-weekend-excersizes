@@ -13,7 +13,7 @@ const findNextSquare = num => {
     return (squareNum+1) ** 2
 }
 
-console.log('expected :144. got: ', findNextSquare(121))
-console.log('expected :676. got: ', findNextSquare(625))
-console.log('expected :-1. got: ', findNextSquare(114))
-console.log('expected :64. got: ', findNextSquare(49))
+console.log('number:121. expected :144. got: ', findNextSquare(121))
+console.log('number:625. expected :676. got: ', findNextSquare(625))
+console.log('number:114. expected :-1. got: ', findNextSquare(114))
+console.log('number:49. expected :64. got: ', findNextSquare(49))

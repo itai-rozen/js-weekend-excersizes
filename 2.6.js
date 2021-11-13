@@ -5,7 +5,8 @@
 
 
 const centuryFromYear = year => (year % 100 > 0)? Math.floor(year/100+1) : Math.floor(year/100)
-console.log('expected: 18. got: ', centuryFromYear(1705))
-console.log('expected: 19. got: ', centuryFromYear(1900))
-console.log('expected: 20. got: ', centuryFromYear(2000))
-console.log('expected: 17. got: ', centuryFromYear(1601))
+
+console.log('for year 1705, expected: 18. got: ', centuryFromYear(1705))
+console.log('for year 1900, expected: 19. got: ', centuryFromYear(1900))
+console.log('for year 2000, expected: 20. got: ', centuryFromYear(2000))
+console.log('for year 1601, expected: 17. got: ', centuryFromYear(1601))

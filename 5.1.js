@@ -4,5 +4,5 @@
 
 const trimString = str => str.slice(1,str.length-1)
 
-console.log('expected: love. got: ',trimString('gloves'))
-console.log('expected: laughter. got: ',trimString('slaughters'))
+console.log('original word: gloves. expected: love. got: ',trimString('gloves'))
+console.log('original word: slaughters. expected: laughter. got: ',trimString('slaughters'))

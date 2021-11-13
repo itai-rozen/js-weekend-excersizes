@@ -4,10 +4,13 @@
 
 const toCamelCase = str => {
     let camelCasedStr = ''
-    let strArr = str.split('_')
+    let strArr = (str.indexOf('_') === -1) ? str.split('-') : str.split('_')
     for (word of strArr){ camelCasedStr += word.slice(0,1).toUpperCase() + word.slice(1)}
     return camelCasedStr
 }
 let underscoreStr = 'camel_case_me_please'
 console.log('original string: ', underscoreStr)
 console.log('string after camelCasing: ',toCamelCase(underscoreStr))
+let dashStr = 'now-camel-case-me-with-dashes'
+console.log('original string: ', dashStr)
+console.log('string after camelCasing: ',toCamelCase(dashStr))

@@ -12,7 +12,7 @@
 // The second value in the first integer array is 0, since the bus is empty in the first bus stop
 
 const passangers = [
-   //[in,out] 
+//  [in,out] 
     [4,0], //4 - 0 = 4
     [16,3], // 4 + 16 - 3 = 17
     [14,9], // 17 + 14 - 9 = 22
